@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="cursor"></div>
+  <div id="cursorRing"></div>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">✦<span>MEU</span> SITE</div>
+    <ul class="nav-links">
+      <li><a href="#sobre">01 Sobre</a></li>
+      <li><a href="#trajetoria">02 Trajetória</a></li>
+      <li><a href="#gostos">03 Gostos</a></li>
+      <li><a href="#rotina">04 Rotina</a></li>
+      <li><a href="#objetivos">05 Objetivos</a></li>
+    </ul>
+  </nav>
+
+  <!-- ══════════════ HERO — SEM FOTO ══════════════ -->
+  <section id="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-slash"></div>
+    <div class="hero-diamond hd1"></div>
+    <div class="hero-diamond hd2"></div>
+    <div class="hero-diamond hd3"></div>
+    <div class="hero-diamond hd4"></div>
+
+    <div class="hero-content">
+      <div class="hero-tag">✦ Bem-vindo ao meu espaço digital</div>
+
+      <h1 class="hero-name">
+        <!-- ✏️ Pode trocar "Olá, sou" por outra frase de abertura -->
+        Olá, sou
+        <span class="line2"><span id="typed-name"></span><span class="typed-cursor">|</span></span>
+      </h1>
+
+      <p class="hero-subtitle">
+        <!-- ✏️ Palavras que te definem, separadas por ◆ -->
+        João <span>◆</span> Programador <span>◆</span> Lutador
+      </p>
+
+      <p class="hero-desc">
+        <!-- ✏️ Uma frase curta e marcante sobre você -->
+        Este é o meu espaço na internet — onde você descobre quem eu sou, o que me motiva e onde quero chegar.
+      </p>
+
+      <div class="hero-btns">
+        <a href="#sobre" class="btn btn-primary">Ver minha história</a>
+        <a href="#objetivos" class="btn btn-outline">Meus objetivos →</a>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      scroll
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       SEÇÃO 01 — SOBRE
+       ✏️ FOTO DE FUNDO: vá até o CSS, encontre .sobre-bg
+       e troque url('SUA_FOTO_FUNDO_01.jpg') pela sua foto.
+  ════════════════════════════════════════════════ -->
+  <section id="sobre">
+    <div class="sobre-bg"></div>
+    <div class="bg-ph" id="ph-sobre">
+      <span class="icon">📸</span>
+      <strong style="color:rgba(0,229,255,0.6)">FOTO DE FUNDO — SEÇÃO 01</strong>
+      <span>No CSS, encontre <code>.sobre-bg</code></span>
+      <span>e troque: <code>url('SUA_FOTO_FUNDO_01.jpg')</code></span>
+    </div>
+    <div class="sobre-overlay"></div>
+
+    <div class="sobre-inner">
+      <div class="reveal-left">
+        <div class="section-label">01 — Apresentação</div>
+        <h2 class="section-title">Quem sou <span>eu?</span></h2>
+        <div class="sobre-text-box">
+          <!-- ✏️ Escreva sua apresentação pessoal aqui -->
+          <p><strong>Oi! Tudo bem?</strong> Meu nome é <strong>[Seu Nome]</strong>, tenho <strong>[sua idade] anos</strong> e sou de <strong>[sua cidade]</strong>.</p>
+          <p>Desde pequeno(a) sempre fui fascinado(a) por tecnologia — ficava horas no computador querendo entender como tudo funcionava por trás da tela.</p>
+          <p>Hoje estudo <strong>[seu curso/escola]</strong> e descubro cada dia mais que <strong>tecnologia é minha maior paixão</strong>. Fora da tela, gosto de <strong>[hobbies]</strong>.</p>
+          <div class="tags-wrap">
+            <!-- ✏️ Troque pelas palavras que te descrevem -->
+            <span class="tag">Curioso(a)</span>
+            <span class="tag">Criativo(a)</span>
+            <span class="tag">Tecnologia</span>
+            <span class="tag">Música</span>
+            <span class="tag">Jogos</span>
+            <span class="tag">[adicione mais]</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal-right">
+        <div class="sobre-stats">
+          <!-- ✏️ Troque os valores pelos seus números reais -->
+          <div class="stat-box">
+            <div class="stat-val">[00]</div>
+            <div class="stat-label">Anos de idade</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-val">[00]</div>
+            <div class="stat-label">Projetos feitos</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-val">[00]</div>
+            <div class="stat-label">Certificações</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-val">∞</div>
+            <div class="stat-label">Curiosidade</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       SEÇÃO 02 — TRAJETÓRIA
+       ✏️ FOTO DE FUNDO: vá até o CSS, encontre .traj-bg
+       e troque url('SUA_FOTO_FUNDO_02.jpg') pela sua foto.
+  ════════════════════════════════════════════════ -->
+  <section id="trajetoria">
+    <div class="traj-bg"></div>
+    <div class="bg-ph" id="ph-traj">
+      <span class="icon">🎓</span>
+      <strong style="color:rgba(255,45,85,0.6)">FOTO DE FUNDO — SEÇÃO 02</strong>
+      <span>No CSS, encontre <code>.traj-bg</code></span>
+      <span>e troque: <code>url('SUA_FOTO_FUNDO_02.jpg')</code></span>
+    </div>
+    <div class="traj-overlay"></div>
+
+    <div class="traj-inner">
+      <div class="reveal-left">
+        <div class="section-label">02 — Trajetória</div>
+        <h2 class="section-title">Minha <span class="x">jornada</span></h2>
+        <div class="timeline">
+          <!-- ✏️ Preencha com seu histórico acadêmico/profissional real -->
+          <div class="timeline-item">
+            <div class="tl-year">20XX — 20XX</div>
+            <div class="tl-title">[Escola / Onde começou]</div>
+            <div class="tl-desc">Onde tudo começou. Descreva essa fase e o que foi marcante para você.</div>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-year">20XX — Atual</div>
+            <div class="tl-title">[Curso Atual — Instituição]</div>
+            <div class="tl-desc">Seu curso atual, o que está aprendendo e por que escolheu essa área.</div>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-year">20XX</div>
+            <div class="tl-title">[Projeto ou Certificação]</div>
+            <div class="tl-desc">Um projeto pessoal, curso extra ou conquista que te orgulha muito.</div>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-year">Em andamento</div>
+            <div class="tl-title">[O que está desenvolvendo agora]</div>
+            <div class="tl-desc">Quais tecnologias ou conhecimentos você está estudando no momento?</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal-right">
+        <div class="section-label" style="margin-bottom:1.5rem">Habilidades</div>
+        <div class="skills-wrap">
+          <!-- ✏️ Edite nomes e data-width (0 a 100) com suas habilidades reais -->
+          <div class="skill-bar">
+            <div class="skill-header"><span>HTML / CSS</span><span>80%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-width="80"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-header"><span>JavaScript</span><span>60%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-width="60"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-header"><span>[Habilidade]</span><span>70%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-width="70"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-header"><span>[Habilidade]</span><span>50%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-width="50"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-header"><span>[Habilidade]</span><span>45%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-width="45"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ 03 — GOSTOS ══════════════ -->
+  <section id="gostos">
+    <div class="reveal">
+      <div class="section-label">03 — Gostos & Hobbies</div>
+      <h2 class="section-title">O que eu <span>curto</span></h2>
+    </div>
+    <div class="gostos-layout">
+      <div class="cards-grid">
+        <!-- ✏️ Edite cada cartão com seus gostos reais -->
+        <div class="gosto-card reveal">
+          <div class="gosto-emoji">🎵</div>
+          <div class="gosto-label">Música</div>
+          <div class="gosto-val">[Artista/banda]</div>
+        </div>
+        <div class="gosto-card reveal" style="transition-delay:.1s">
+          <div class="gosto-emoji">🎮</div>
+          <div class="gosto-label">Jogo</div>
+          <div class="gosto-val">[Nome do jogo]</div>
+        </div>
+        <div class="gosto-card reveal" style="transition-delay:.2s">
+          <div class="gosto-emoji">🎬</div>
+          <div class="gosto-label">Série / Filme</div>
+          <div class="gosto-val">[Nome]</div>
+        </div>
+        <div class="gosto-card reveal" style="transition-delay:.3s">
+          <div class="gosto-emoji">📚</div>
+          <div class="gosto-label">Leitura</div>
+          <div class="gosto-val">[Livro / tipo]</div>
+        </div>
+        <div class="gosto-card reveal" style="transition-delay:.4s">
+          <div class="gosto-emoji">⚽</div>
+          <div class="gosto-label">Esporte</div>
+          <div class="gosto-val">[Esporte favorito]</div>
+        </div>
+        <div class="gosto-card reveal" style="transition-delay:.5s">
+          <div class="gosto-emoji">✨</div>
+          <div class="gosto-label">Hobby secreto</div>
+          <div class="gosto-val">[Algo seu]</div>
+        </div>
+      </div>
+
+      <div class="reveal-right">
+        <div class="gostos-photo">
+          <!-- ✏️ FOTO: você fazendo seu hobby favorito -->
+          <img src="SUA_FOTO_GOSTOS.jpg" alt="Hobby" />
+          <div class="photo-ph">
+            <span class="icon">🎯</span>
+            <strong>Foto do hobby</strong>
+            <p>Troque o <code>src</code> da &lt;img&gt; acima</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ 04 — ROTINA ══════════════ -->
+  <section id="rotina">
+    <div class="reveal">
+      <div class="section-label">04 — Rotina</div>
+      <h2 class="section-title">Meu <span>dia a dia</span></h2>
+    </div>
+    <div class="rotina-layout">
+      <div class="rotina-photo reveal-left">
+        <!-- ✏️ FOTO: seu setup, quarto, escola, momento típico do dia -->
+        <img src="SUA_FOTO_ROTINA.jpg" alt="Rotina" />
+        <div class="photo-ph">
+          <span class="icon">☀️</span>
+          <strong>Foto da rotina</strong>
+          <p>Troque o <code>src</code> da &lt;img&gt; acima</p>
+        </div>
+      </div>
+      <div class="rotina-items reveal-right">
+        <!-- ✏️ Edite com sua rotina real -->
+        <div class="rotina-item">
+          <div class="rotina-icon">🌅</div>
+          <div>
+            <div class="rotina-item-title">Manhã — Escola / Curso</div>
+            <div class="rotina-item-desc">Como começa seu dia? Horário, rotina matinal.</div>
+          </div>
+        </div>
+        <div class="rotina-item">
+          <div class="rotina-icon">💻</div>
+          <div>
+            <div class="rotina-item-title">Tarde — Estudos</div>
+            <div class="rotina-item-desc">O que você estuda ou pratica nas horas vagas?</div>
+          </div>
+        </div>
+        <div class="rotina-item">
+          <div class="rotina-icon">🎮</div>
+          <div>
+            <div class="rotina-item-title">Noite — Lazer</div>
+            <div class="rotina-item-desc">Jogos, séries, música — como você descomprime?</div>
+          </div>
+        </div>
+        <div class="rotina-item">
+          <div class="rotina-icon">📱</div>
+          <div>
+            <div class="rotina-item-title">Sempre — Conectado</div>
+            <div class="rotina-item-desc">Redes, apps e plataformas do seu cotidiano.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ 05 — OBJETIVOS ══════════════ -->
+  <section id="objetivos">
+    <div class="reveal">
+      <div class="section-label">05 — Futuro</div>
+      <h2 class="section-title">Para onde <span>quero ir</span></h2>
+    </div>
+    <div class="obj-layout">
+      <div class="obj-list">
+        <!-- ✏️ Edite com seus objetivos reais -->
+        <div class="obj-item reveal">
+          <div class="obj-num">01</div>
+          <div>
+            <div class="obj-title">[Objetivo de curto prazo]</div>
+            <div class="obj-desc">Ex: Terminar o curso e dominar [tecnologia X] para criar meus próprios projetos.</div>
+          </div>
+        </div>
+        <div class="obj-item reveal" style="transition-delay:.15s">
+          <div class="obj-num">02</div>
+          <div>
+            <div class="obj-title">[Objetivo profissional]</div>
+            <div class="obj-desc">Ex: Conseguir meu primeiro emprego na área de tecnologia como [cargo].</div>
+          </div>
+        </div>
+        <div class="obj-item reveal" style="transition-delay:.3s">
+          <div class="obj-num">03</div>
+          <div>
+            <div class="obj-title">[Sonho / meta grande]</div>
+            <div class="obj-desc">Ex: Criar meu próprio app ou entrar numa universidade federal.</div>
+          </div>
+        </div>
+        <div class="obj-item reveal" style="transition-delay:.45s">
+          <div class="obj-num">04</div>
+          <div>
+            <div class="obj-title">[Sonho pessoal]</div>
+            <div class="obj-desc">Além da carreira — viajar, ajudar sua família, construir algo seu.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="obj-photo reveal-right">
+        <!-- ✏️ FOTO: imagem que represente seus sonhos ou aspirações -->
+        <img src="SUA_FOTO_OBJETIVOS.jpg" alt="Objetivos" />
+        <div class="photo-ph" style="min-height:350px">
+          <span class="icon">🚀</span>
+          <strong>Foto dos sonhos</strong>
+          <p>Troque o <code>src</code> da &lt;img&gt; acima</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-name">
+      <!-- ✏️ Seu nome aqui -->
+      ✦ [SEU NOME]
+    </div>
+    <div class="footer-copy">Feito com 💙 para o trabalho de desenvolvimento web</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
