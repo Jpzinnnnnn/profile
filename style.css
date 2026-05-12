@@ -20,6 +20,44 @@ body {
   overflow-x: hidden;
 }
 
+#music-btn {
+  position: absolute;
+  top: 85px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background: rgba(0, 255, 255, 0.05);
+  border: 2px solid #00e5ff;
+  color: #00e5ff;
+
+  padding: 10px 25px;
+  border-radius: 14px;
+
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  backdrop-filter: blur(8px);
+  box-shadow:
+    0 0 10px rgba(0,229,255,0.3),
+    inset 0 0 10px rgba(0,229,255,0.1);
+
+  z-index: 999;
+}
+
+#music-btn:hover {
+  background: rgba(0, 229, 255, 0.12);
+
+  box-shadow:
+    0 0 20px rgba(0,229,255,0.6),
+    inset 0 0 12px rgba(0,229,255,0.2);
+
+  transform: translateX(-50%) scale(1.05);
+}
+
 /* ─── CURSOR ─── */
 #cursor {
   width: 8px; height: 8px;

@@ -65,3 +65,20 @@
    secs.forEach(s => { if(window.scrollY >= s.offsetTop-200) active=s.id; });
    links.forEach(a => { a.style.color = a.getAttribute('href')==='#'+active ? 'var(--accent)':'' });
  });
+
+ const btn = document.getElementById('music-btn');
+ const musica = document.getElementById('musica');
+
+ let tocando = false;
+
+ btn.addEventListener('click', () => {
+   if (!tocando) {
+     musica.play();
+     btn.innerHTML = '❚❚ PAUSAR MÚSICA';
+     tocando = true;
+   } else {
+     musica.pause();
+     btn.innerHTML = '♫ TOCAR MÚSICA';
+     tocando = false;
+   }
+ });
